@@ -1,0 +1,375 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Verdana, sans-serif;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.site-header {
+  color: #ffffff;
+
+  background-color: #ffffff;
+}
+
+.site-header .container {
+  min-height: 200px;
+  padding-top: 50px;
+  padding-bottom: 180px;
+
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 95px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 60px;
+
+}
+
+.site-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 660px;
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.site-menu a {
+  display: block;
+  margin-right: 40px;
+
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffe4b5;
+}
+
+.site-menu a:hover {
+  color: white;
+}
+
+.site-menu a:active {
+  color: #ffe4b5;
+}
+
+.contacts-menu {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px;
+  margin: 0;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: 80px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts-menu li {
+  margin-left: 20px;
+}
+
+.contacts-menu a:hover {
+  opacity: 0.8;
+}
+
+.contacts-menu a:active {
+  opacity: 0.4;
+}
+
+.contacts-menu .icon {
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+
+
+.about-us {
+  width: 300px;
+  padding-left: 120px;
+}
+
+.about-us h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+
+  font-size: 45px;
+  line-height: 50px;
+  font-family: "Courier New", monospace;
+  color: white;
+}
+
+.about-us p {
+  margin: 0;
+  margin-bottom: 50px;
+  padding-left: 5px;
+
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffe4b5;
+}
+
+.btn {
+  position: relative;
+
+  display: inline-block;
+  width: 195px;
+  padding: 0 25px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  color: #ffe4b5;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn::after {
+  content: "";
+
+  position: absolute;
+  right: 20px;
+  top: 17px;
+
+  width: 19px;
+  height: 16px;
+
+ 
+}
+
+.btn-yellow {
+  background-color: #feca30;
+}
+
+.btn-yellow:hover {
+  background-color: white;
+}
+
+.btn-yellow:active {
+  background-color: #c1a300;
+}
+
+.btn-grey {
+  width: 215px;
+
+  color: white;
+
+  background-color: #222222;
+
+}
+
+
+
+.btn-grey:hover {
+  background-color: #FFFACD;
+}
+
+.btn-grey:active {
+  background-color: #ccc;
+}
+
+.features {
+  padding: 85px 0;
+
+  background-color: #DEB887;
+
+  color: #ffffff;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.features-list li {
+  position: relative;
+
+  width: 180px;
+  margin-right: 80px;
+  padding-top: 100px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFACD;
+}
+
+.features-list li::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 60px;
+  height: 68px;
+}
+
+
+
+.columns-container {
+  display: flex;
+}
+
+.columns-container .left-column {
+  width: 440px;
+  margin-right: 80px;
+}
+
+.columns-container .right-column {
+  width: 440px;
+}
+
+.moon-vacation {
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+
+.moon-vacation .lead {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Courier New", monospace;
+}
+
+.recommendations {
+  padding-top: 20px;
+  padding-bottom: 55px;
+}
+
+.recommendations h3 {
+  margin-top: 0;
+  margin-bottom: 35px;
+  
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Courier New", monospace;
+}
+
+.recommendations-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+
+  list-style: none;
+}
+
+.recommendations-list li {
+  position: relative;
+
+  margin-bottom: 20px;
+}
+
+.recommendations-list li::before {
+  content: "";
+
+  position: absolute;
+  left: -25px;
+  top: 5px;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+  background-color: #feca30;
+}
+
+.vacation-request {
+  padding: 80px 0;
+  color: #000000;
+  background-color: #f0f0f0;
+}
+
+.vacation-request .lead {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Courier New", monospace;
+}
+
+.vacation-request p {
+  width: 340px;
+}
+
+.vacation-request-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vacation-request-form p {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.vacation-request-form .half-field {
+  width: 215px;
+  margin-bottom: 20px;
+}
+
+.vacation-request-form input[type="text"],
+.vacation-request-form input[type="tel"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+
+  border: 0;
+}
+
+.vacation-request-form .btn {
+  margin-top: 30px;
+  text-align: left;
+}
+
+
+
+
